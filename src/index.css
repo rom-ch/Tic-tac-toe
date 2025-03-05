@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-main-backgorund: hsl(206, 100%, 35%);
+
+  /* --color-turn: hsl(213, 100%, 26%); */
+  --color-turn: #5592e6;
+  --shadow-turn: 0 4px 0 rgba(0, 0, 0, 0.3);
+
+  --color-tile: hsl(36, 98%, 52%);
+  --shadow-tile: 0 4px 0 #724501;
+
+  --color-cross: hsl(112, 53%, 63%);
+  --color-circle: hsl(322, 53%, 63%);
+}
+
+.div {
+  background-color: hsl(206, 100%, 35%);
+}
